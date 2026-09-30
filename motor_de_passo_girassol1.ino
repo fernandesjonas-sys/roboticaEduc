@@ -9,8 +9,8 @@ int leituraS1 = 0;
 int leituraS2 =0;
 int posicao = 90;
 int tolerancia = 60;
-int limiteMinimo = 10;
-int limiteMaximo = 170;
+int limiteMinimo = 30;
+int limiteMaximo = 60;
 int sentido = 1;
 
 void setup()
