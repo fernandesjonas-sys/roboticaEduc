@@ -5,6 +5,7 @@ Servo motor1;
 int sensor1 = A0;
 int sensor2 = A1;
 int led1 = 2;
+int led2 = 3;
 int leituraS1 = 0;
 int leituraS2 =0;
 int posicao = 90;
@@ -40,6 +41,7 @@ void loop()
     posicao = novaPosicao;
     motor1.write(posicao);
     digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
   } else {
     digitalWrite(led1, LOW);
   }
